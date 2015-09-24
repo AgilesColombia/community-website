@@ -1,3 +1,3 @@
 function WebVariables() {
-  this.title = "Hello AgilesColombia"
+  this.title = "Agiles Colombia"
 }

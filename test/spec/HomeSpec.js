@@ -12,7 +12,7 @@ describe("Home site", function() {
     });
 
     it("should indicate that the web site can saludate", function() {
-      expect("Hello AgilesColombia").toBe(webVariables.title);
+      expect("Agiles Colombia").toBe(webVariables.title);
     });
 });
 });

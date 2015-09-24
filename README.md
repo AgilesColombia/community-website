@@ -1,4 +1,4 @@
-# Community Website [![Stories in Ready](https://badge.waffle.io/AgilesColombia/community-website.svg?label=Ready&title=Ready)](http://waffle.io/AgilesColombia/community-website) [![Build Status](https://travis-ci.org/AgilesColombia/community-website.svg?branch=master)](https://travis-ci.org/AgilesColombia/community-website) 
+# Community Website [![Stories in Ready](https://badge.waffle.io/AgilesColombia/community-website.svg?label=Ready&title=Ready)](http://waffle.io/AgilesColombia/community-website) [![Build Status](https://travis-ci.org/AgilesColombia/community-website.svg?branch=master)](https://travis-ci.org/AgilesColombia/community-website)
 Repositorio utilizado para la el sitio web de la comunidad Agiles Colombia.
 
 **Herramientas:**
@@ -11,12 +11,22 @@ Repositorio utilizado para la el sitio web de la comunidad Agiles Colombia.
 
 **Para ejecutar las pruebas**
 
-instalar node.js y npm.
+Instalar node.js y npm.
 
 Ejecutar
 
     npm install
 
-Los test corren con jasmine
+Los unit test corren con jasmine
 
       grunt jasmine
+
+Las pruebas de aceptación con cucumberjs y zombie
+
+    grunt connect:develop
+
+    grunt cucumberjs
+
+Para correr el fullStack de pruebas:
+
+    grunt fullTest
